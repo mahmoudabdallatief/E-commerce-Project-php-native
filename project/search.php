@@ -1,5 +1,4 @@
 <?php
-include "include files/connect.php";
 $search_query = mysqli_real_escape_string($conn, trim($_POST['search_query']));
 if (empty($search_query) || $search_query === '') {
   // If the search query is empty or contains only spaces, redirect back to the previous page

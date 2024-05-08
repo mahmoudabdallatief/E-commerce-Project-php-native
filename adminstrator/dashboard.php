@@ -1,8 +1,5 @@
 <?php
 $pagename ='Dashboard';
-ini_set('session.cookie_lifetime', 60 * 60 * 24 * 365);
-header("Cache-Control: no-cache, must-revalidate");
-header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");
 session_start();
 if (!isset($_SESSION['log'])) {
     header("Location:index.php");

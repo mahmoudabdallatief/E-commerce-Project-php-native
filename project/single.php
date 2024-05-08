@@ -1,5 +1,4 @@
 <?php
-ini_set('session.cookie_lifetime', 60 * 60 * 24 * 365);
 session_start();
 error_reporting(E_ALL ^ E_NOTICE);
 
